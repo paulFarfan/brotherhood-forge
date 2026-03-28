@@ -7,6 +7,7 @@ export default function Footer() {
         <div className="flex justify-center mb-6">
           <img
             src="/icons/forgebanner.webp"
+            alt="THE FORGE"
             className="h-10 opacity-80 hover:opacity-100 transition"
           />
         </div>
@@ -19,7 +20,7 @@ export default function Footer() {
 
         {/* Quick Links */}
 
-        <div className="flex justify-center gap-8 mb-6 text-sm">
+        <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-6 text-sm">
           <a href="#reality" className="hover:text-white transition">
             Reality
           </a>
@@ -38,6 +39,14 @@ export default function Footer() {
 
           <a href="#events" className="hover:text-white transition">
             Events
+          </a>
+
+          <a href="/privacy.html" className="hover:text-white transition">
+            Privacy
+          </a>
+
+          <a href="/terms.html" className="hover:text-white transition">
+            Terms
           </a>
         </div>
 

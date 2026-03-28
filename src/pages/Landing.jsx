@@ -13,16 +13,21 @@ import Footer from "../components/layout/Footer";
 export default function Landing() {
   return (
     <>
+      <a href="#main-content" className="skip-link">
+        Skip to main content
+      </a>
       <Navbar />
-      <Hero />
-      <Problem />
-      <Reality />
-      <Solution />
-      <FocusMode />
-      <Community />
-      <Experts />
-      <Events />
-      <CTA />
+      <main id="main-content">
+        <Hero />
+        <Problem />
+        <Reality />
+        <Solution />
+        <FocusMode />
+        <Community />
+        <Experts />
+        <Events />
+        <CTA />
+      </main>
       <Footer />
     </>
   );

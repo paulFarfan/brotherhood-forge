@@ -2,7 +2,7 @@ import ExpandableCard from "../ui/ExpandableCard";
 import AnimatedSection from "../ui/AnimatedSection";
 export default function FocusMode() {
   return (
-    <section id="focus" className="py-28 text-white">
+    <section id="focus" className="py-28 text-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="hero-title text-5xl mb-6">Focus Mode</h2>

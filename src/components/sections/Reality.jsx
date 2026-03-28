@@ -2,7 +2,7 @@ import StatsCard from "../ui/StatsCard";
 
 export default function Reality() {
   return (
-    <section id="reality" className="py-28 text-white">
+    <section id="reality" className="py-28 text-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-6">
         {/* Title */}
 

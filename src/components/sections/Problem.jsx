@@ -1,6 +1,9 @@
 export default function Problem() {
   return (
-    <section id="problem" className="py-28 text-white bg-transparent">
+    <section
+      id="problem"
+      className="py-28 text-white bg-transparent scroll-mt-24"
+    >
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
         <div>
           <h2 className="hero-title text-5xl mb-8">The Problem</h2>
@@ -20,7 +23,11 @@ export default function Problem() {
           </p>
         </div>
 
-        <img src="/images/problem.webp" className="rounded-lg" />
+        <img
+          src="/images/problem.webp"
+          alt="Man reflecting, representing isolation and lack of direction"
+          className="rounded-lg"
+        />
       </div>
     </section>
   );

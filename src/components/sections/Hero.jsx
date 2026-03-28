@@ -1,7 +1,10 @@
-// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import ButtonRed from "../ui/ButtonRed";
 import ScrollIndicator from "../ui/ScrollIndicator";
+
+const MotionH1 = motion.h1;
+const MotionP = motion.p;
+
 export default function Hero() {
   return (
     <section
@@ -23,16 +26,16 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-[70%_30%] gap-10 items-center">
           {/* columna izquierda */}
           <div>
-            <motion.h1
+            <MotionH1
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
               className="hero-title text-6xl md:text-8xl text-left"
             >
               Forge the Strongest Version of Yourself
-            </motion.h1>
+            </MotionH1>
 
-            <motion.p
+            <MotionP
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
@@ -40,13 +43,14 @@ export default function Hero() {
             >
               A brotherhood of men committed to discipline, strength, and
               building a meaningful life.
-            </motion.p>
+            </MotionP>
           </div>
 
           {/* logo */}
           <div className="flex justify-center md:justify-end">
             <img
               src="/icons/forgeicon.webp"
+              alt=""
               className="w-56 md:w-72 drop-shadow-[0_0_20px_rgba(255,120,0,0.5)]"
             />
           </div>
@@ -56,9 +60,12 @@ export default function Hero() {
         <div className="flex justify-center gap-6 mt-12">
           <ButtonRed text="Join the Brotherhood" />
 
-          <button className="border border-zinc-500 px-8 py-4 rounded-lg text-lg hover:bg-zinc-800 transition">
+          <a
+            href="#reality"
+            className="border border-zinc-500 px-8 py-4 rounded-lg text-lg hover:bg-zinc-800 transition inline-flex items-center justify-center"
+          >
             Explore
-          </button>
+          </a>
         </div>
       </div>
       <a href="#problem">

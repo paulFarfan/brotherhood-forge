@@ -2,7 +2,7 @@ import AnimatedSection from "../ui/AnimatedSection";
 import IconCardLink from "../ui/IconCardLink";
 export default function Community() {
   return (
-    <section id="community" className="py-28 text-white">
+    <section id="community" className="py-28 text-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="hero-title text-5xl mb-6">Community</h2>

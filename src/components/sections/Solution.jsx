@@ -2,13 +2,17 @@ export default function Solution() {
   return (
     <section className="py-28 text-white">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
-        <img src="/images/solution.webp" className="rounded-lg" />
+        <img
+          src="/images/solution.webp"
+          alt="Men training together as a supportive community"
+          className="rounded-lg"
+        />
 
         <div>
           <h2 className="hero-title text-5xl mb-8">The Solution</h2>
 
           <p className="text-zinc-400 text-lg mb-6">
-            Brotherhood Forge exists to help men reclaim control of their lives.
+            THE FORGE exists to help men reclaim control of their lives.
           </p>
 
           <p className="text-zinc-400 text-lg mb-6">

@@ -1,4 +1,55 @@
 @import "tailwindcss";
+
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link:focus-visible {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 100;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0.75rem 1.25rem;
+  clip: auto;
+  overflow: visible;
+  white-space: normal;
+  background-color: #dc2626;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #f87171;
+  outline-offset: 3px;
+}
+
+/* Events carousel: keep controls usable on small screens */
+.events-swiper .swiper-button-next,
+.events-swiper .swiper-button-prev {
+  color: #fafafa;
+}
+
+@media (max-width: 639px) {
+  .events-swiper .swiper-button-next,
+  .events-swiper .swiper-button-prev {
+    display: none;
+  }
+}
+
 .hero-title {
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 2px;

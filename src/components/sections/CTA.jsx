@@ -1,7 +1,10 @@
 import ButtonRed from "../ui/ButtonRed";
 export default function CTA() {
   return (
-    <section className="py-32 px-6 bg-zinc-950 text-center">
+    <section
+      id="join"
+      className="py-32 px-6 bg-zinc-950 text-center scroll-mt-24"
+    >
       <h2 className="text-white text-5xl font-bold mb-6">
         Become the Man You Were Meant to Be
       </h2>

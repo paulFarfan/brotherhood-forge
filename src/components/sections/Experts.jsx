@@ -2,7 +2,7 @@ import CardLink from "../ui/CardLink";
 import AnimatedSection from "../ui/AnimatedSection";
 export default function Experts() {
   return (
-    <section id="support" className="py-28 text-white">
+    <section id="support" className="py-28 text-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="hero-title text-5xl mb-6">Professional Support</h2>
