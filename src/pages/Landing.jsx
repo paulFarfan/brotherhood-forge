@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import Navbar from "../components/layout/Navbar";
 import Hero from "../components/sections/Hero";
 import Problem from "../components/sections/Problem";
@@ -11,10 +12,12 @@ import CTA from "../components/sections/CTA";
 import Footer from "../components/layout/Footer";
 
 export default function Landing() {
+  const { t } = useTranslation();
+
   return (
     <>
       <a href="#main-content" className="skip-link">
-        Skip to main content
+        {t("skipLink")}
       </a>
       <Navbar />
       <main id="main-content">

@@ -1,9 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 export default function Footer() {
+  const { t } = useTranslation();
+  const year = new Date().getFullYear();
+
   return (
     <footer className="py-12 border-t border-zinc-800 bg-black text-zinc-400">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        {/* Logo */}
-
         <div className="flex justify-center mb-6">
           <img
             src="/icons/forgebanner.webp"
@@ -12,48 +15,40 @@ export default function Footer() {
           />
         </div>
 
-        {/* Tagline */}
-
-        <p className="text-zinc-500 mb-6">
-          A brotherhood forging stronger men.
-        </p>
-
-        {/* Quick Links */}
+        <p className="text-zinc-500 mb-6">{t("footer.tagline")}</p>
 
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-6 text-sm">
           <a href="#reality" className="hover:text-white transition">
-            Reality
+            {t("nav.reality")}
           </a>
 
           <a href="#focus" className="hover:text-white transition">
-            Focus Mode
+            {t("nav.focusMode")}
           </a>
 
           <a href="#community" className="hover:text-white transition">
-            Community
+            {t("nav.community")}
           </a>
 
           <a href="#support" className="hover:text-white transition">
-            Support
+            {t("nav.support")}
           </a>
 
           <a href="#events" className="hover:text-white transition">
-            Events
+            {t("nav.events")}
           </a>
 
           <a href="/privacy.html" className="hover:text-white transition">
-            Privacy
+            {t("footer.privacy")}
           </a>
 
           <a href="/terms.html" className="hover:text-white transition">
-            Terms
+            {t("footer.terms")}
           </a>
         </div>
 
-        {/* Copyright */}
-
         <p className="text-xs text-zinc-600">
-          © {new Date().getFullYear()} THE FORGE. All rights reserved.
+          {t("footer.copyright", { year })}
         </p>
       </div>
     </footer>

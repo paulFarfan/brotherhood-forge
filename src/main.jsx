@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { MotionConfig } from "framer-motion";
+import "./i18n/index.js";
 import "./index.css";
 import App from "./App.jsx";
 import Lenis from "@studio-freight/lenis";

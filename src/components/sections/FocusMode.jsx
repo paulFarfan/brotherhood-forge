@@ -1,61 +1,64 @@
+import { useTranslation } from "react-i18next";
 import ExpandableCard from "../ui/ExpandableCard";
 import AnimatedSection from "../ui/AnimatedSection";
+
 export default function FocusMode() {
+  const { t } = useTranslation();
+
   return (
     <section id="focus" className="py-28 text-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="hero-title text-5xl mb-6">Focus Mode</h2>
+          <h2 className="hero-title text-5xl mb-6">{t("focusMode.title")}</h2>
 
           <p className="text-zinc-400 max-w-2xl mx-auto">
-            Focus Mode is your personal development system. Track progress and
-            build discipline across the areas that define who you become.
+            {t("focusMode.intro")}
           </p>
         </div>
 
         <div className="grid md:grid-cols-4 gap-10">
           <AnimatedSection delay={0.1}>
             <ExpandableCard
-              title="Mindset"
-              description="Mental clarity and emotional discipline."
+              title={t("focusMode.mindset.title")}
+              description={t("focusMode.mindset.desc")}
               image="/images/focus-mindset.webp"
             >
-              <p>• Meditation sessions</p>
-              <p>• Reflection journals</p>
-              <p>• Focus habits</p>
+              <p>• {t("focusMode.mindset.b1")}</p>
+              <p>• {t("focusMode.mindset.b2")}</p>
+              <p>• {t("focusMode.mindset.b3")}</p>
             </ExpandableCard>
           </AnimatedSection>
           <AnimatedSection delay={0.2}>
             <ExpandableCard
-              title="Body"
-              description="Build strength and physical resilience."
+              title={t("focusMode.body.title")}
+              description={t("focusMode.body.desc")}
               image="/images/focus-body.webp"
             >
-              <p>• Gym training</p>
-              <p>• Workout routines</p>
-              <p>• Strength progress</p>
+              <p>• {t("focusMode.body.b1")}</p>
+              <p>• {t("focusMode.body.b2")}</p>
+              <p>• {t("focusMode.body.b3")}</p>
             </ExpandableCard>
           </AnimatedSection>
           <AnimatedSection delay={0.3}>
             <ExpandableCard
-              title="Knowledge"
-              description="Sharpen your mind through study."
+              title={t("focusMode.knowledge.title")}
+              description={t("focusMode.knowledge.desc")}
               image="/images/focus-knowledge.webp"
             >
-              <p>• Reading lists</p>
-              <p>• Philosophy discussions</p>
-              <p>• Study topics</p>
+              <p>• {t("focusMode.knowledge.b1")}</p>
+              <p>• {t("focusMode.knowledge.b2")}</p>
+              <p>• {t("focusMode.knowledge.b3")}</p>
             </ExpandableCard>
           </AnimatedSection>
           <AnimatedSection delay={0.4}>
             <ExpandableCard
-              title="Social Intelligence"
-              description="Understand people and relationships."
+              title={t("focusMode.social.title")}
+              description={t("focusMode.social.desc")}
               image="/images/focus-social.webp"
             >
-              <p>• Communication skills</p>
-              <p>• Social awareness</p>
-              <p>• Interaction challenges</p>
+              <p>• {t("focusMode.social.b1")}</p>
+              <p>• {t("focusMode.social.b2")}</p>
+              <p>• {t("focusMode.social.b3")}</p>
             </ExpandableCard>
           </AnimatedSection>
         </div>

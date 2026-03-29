@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import ButtonRed from "../ui/ButtonRed";
 import ScrollIndicator from "../ui/ScrollIndicator";
 
@@ -6,6 +7,8 @@ const MotionH1 = motion.h1;
 const MotionP = motion.p;
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section
       id="top"
@@ -22,9 +25,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl px-6 w-full">
-        {/* fila principal */}
         <div className="grid grid-cols-1 md:grid-cols-[70%_30%] gap-10 items-center">
-          {/* columna izquierda */}
           <div>
             <MotionH1
               initial={{ opacity: 0, y: 40 }}
@@ -32,7 +33,7 @@ export default function Hero() {
               transition={{ duration: 1 }}
               className="hero-title text-6xl md:text-8xl text-left"
             >
-              Forge the Strongest Version of Yourself
+              {t("hero.title")}
             </MotionH1>
 
             <MotionP
@@ -41,12 +42,10 @@ export default function Hero() {
               transition={{ delay: 0.5 }}
               className="mt-6 text-lg text-zinc-300 max-w-3xl"
             >
-              A brotherhood of men committed to discipline, strength, and
-              building a meaningful life.
+              {t("hero.subtitle")}
             </MotionP>
           </div>
 
-          {/* logo */}
           <div className="flex justify-center md:justify-end">
             <img
               src="/icons/forgeicon.webp"
@@ -56,15 +55,14 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* botones */}
-        <div className="flex justify-center gap-6 mt-12">
-          <ButtonRed text="Join the Brotherhood" />
+        <div className="flex flex-wrap justify-center gap-6 mt-12">
+          <ButtonRed text={t("hero.joinCta")} />
 
           <a
             href="#reality"
             className="border border-zinc-500 px-8 py-4 rounded-lg text-lg hover:bg-zinc-800 transition inline-flex items-center justify-center"
           >
-            Explore
+            {t("hero.explore")}
           </a>
         </div>
       </div>

@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "THE FORGE — Build Discipline, Purpose and Direction",
+    "description": "A platform for men who choose to work on themselves. No noise, no validation — only discipline, clarity and real growth.",
+    "ogDescription": "A brotherhood of men building discipline, strength and purpose together."
+  },
+  "skipLink": "Skip to main content",
+  "nav": {
+    "primary": "Primary",
+    "reality": "Reality",
+    "focusMode": "Focus Mode",
+    "community": "Community",
+    "support": "Support",
+    "events": "Events",
+    "join": "Join",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Forge the Strongest Version of Yourself",
+    "subtitle": "A space for men who choose to work on themselves. No distractions, no validation — only discipline, clarity and real growth.",
+    "joinCta": "Join the Brotherhood",
+    "explore": "Explore"
+  },
+  "problem": {
+    "title": "The Problem",
+    "p1": "Many men today feel lost, isolated, and without purpose. Society offers no clear path to strength — physical, mental, or spiritual.",
+    "p2": "Too much noise. Conflicting advice. Shallow content. No real community. No structure. No direction.",
+    "p3": "Without guidance, many men drift through life without direction.",
+    "imageAlt": "Man reflecting, representing isolation and lack of direction"
+  },
+  "reality": {
+    "title": "The Reality Men Face Today",
+    "intro": "Across the world, millions of men struggle with isolation, lack of purpose and broken support systems. These numbers reveal a growing crisis.",
+    "stat1Title": "Male Suicide Rate",
+    "stat1Desc": "Nearly 80% of suicides worldwide are men.",
+    "stat2Title": "Divorce Rate",
+    "stat2Desc": "Many marriages end in divorce.",
+    "stat3Title": "Male Loneliness",
+    "stat3Desc": "A growing number of men report chronic loneliness.",
+    "footnote": "Future versions of the platform will track global trends and statistics by country over time."
+  },
+  "solution": {
+    "title": "The Solution",
+    "imageAlt": "Men training together as a supportive community",
+    "p1": "THE FORGE is not a social network. It is an environment for men who choose to take control of their lives.",
+    "p2": "You don’t come here to be seen. You come here to work on yourself — with structure, discipline and real support.",
+    "p3": "The forge is not comfortable. But it is where men build direction, character and purpose.",
+    "structureTitle": "Structure",
+    "structureDesc": "A system that helps you build discipline and stay consistent.",
+    "brotherhoodTitle": "Brotherhood",
+    "brotherhoodDesc": "Men working on themselves, supporting each other without competition.",
+    "guidanceTitle": "Guidance",
+    "guidanceDesc": "Clear direction based on experience, not noise."
+  },
+  "focusMode": {
+    "title": "Focus Mode",
+    "intro": "This is not a tracker. It is a system to build real discipline. What you do here reflects in your life.",
+    "mindset": {
+      "title": "Mindset",
+      "desc": "Mental clarity and emotional discipline.",
+      "b1": "Meditation sessions",
+      "b2": "Reflection journals",
+      "b3": "Focus habits"
+    },
+    "body": {
+      "title": "Body",
+      "desc": "Build strength and physical resilience.",
+      "b1": "Gym training",
+      "b2": "Workout routines",
+      "b3": "Strength progress"
+    },
+    "knowledge": {
+      "title": "Knowledge",
+      "desc": "Sharpen your mind through study.",
+      "b1": "Reading lists",
+      "b2": "Philosophy discussions",
+      "b3": "Study topics"
+    },
+    "social": {
+      "title": "Social Intelligence",
+      "desc": "Understand people and relationships.",
+      "b1": "Communication skills",
+      "b2": "Social awareness",
+      "b3": "Interaction challenges"
+    }
+  },
+  "community": {
+    "title": "Community",
+    "intro": "This is not a place to impress others. It is a place to share your process, learn and contribute value to other men.",
+    "training": {
+      "title": "Training Groups",
+      "desc": "Find partners for gym routines, workout plans and physical challenges."
+    },
+    "books": {
+      "title": "Books & Film Discussions",
+      "desc": "Debates and analysis of books, philosophy and meaningful films."
+    },
+    "life": {
+      "title": "Real Conversations",
+      "desc": "Experiences, struggles and lessons without filters or appearances."
+    },
+    "eventGroups": {
+      "title": "Event Groups",
+      "desc": "Create groups to organize activities and local meetups."
+    },
+    "supportCircles": {
+      "title": "Men Supporting Men",
+      "desc": "Spaces for honest conversations and building resilience."
+    },
+    "business": {
+      "title": "Business & Networking",
+      "desc": "Connect with other members to collaborate and build projects."
+    }
+  },
+  "experts": {
+    "title": "Professional Support",
+    "intro": "Professional support when needed, without replacing personal responsibility.",
+    "psychology": {
+      "title": "Psychologists",
+      "desc": "Professional support for difficult moments."
+    },
+    "coaching": {
+      "title": "Coaches",
+      "desc": "Guidance for discipline and life direction."
+    },
+    "mentors": {
+      "title": "Mentors",
+      "desc": "Advice from men with experience."
+    }
+  },
+  "events": {
+    "title": "Real World Brotherhood",
+    "intro": "Real life is where everything is tested. Connect with other men beyond the screen.",
+    "bikers": {
+      "title": "Bikers Brotherhood",
+      "place": "New York",
+      "alt": "Bikers Brotherhood meetup in New York"
+    },
+    "camping": {
+      "title": "Camping Brotherhood",
+      "place": "Mexico",
+      "alt": "Camping Brotherhood meetup in Mexico"
+    },
+    "gym": {
+      "title": "Gym Brotherhood",
+      "place": "Melbourne",
+      "alt": "Gym Brotherhood meetup in Melbourne"
+    },
+    "hiking": {
+      "title": "Hiking Brotherhood",
+      "place": "Colombia",
+      "alt": "Hiking Brotherhood meetup in Colombia"
+    },
+    "running": {
+      "title": "Running Brotherhood",
+      "place": "Chile",
+      "alt": "Running Brotherhood meetup in Chile"
+    }
+  },
+  "cta": {
+    "title": "Start Building a Life With Direction",
+    "subtitle": "You don’t need more information. You need structure, discipline and action.",
+    "button": "Start"
+  },
+  "footer": {
+    "tagline": "Discipline. Purpose. Brotherhood.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© {{year}} THE FORGE. All rights reserved."
+  }
+}

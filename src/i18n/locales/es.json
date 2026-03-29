@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "THE FORGE — Forja disciplina, propósito y una vida con dirección",
+    "description": "Una plataforma para hombres que quieren construir disciplina, claridad y propósito. Sin apariencias, sin distracciones — solo crecimiento real.",
+    "ogDescription": "Una hermandad de hombres que construyen disciplina, fuerza y propósito juntos."
+  },
+  "skipLink": "Saltar al contenido principal",
+  "nav": {
+    "primary": "Principal",
+    "reality": "Realidad",
+    "focusMode": "Modo enfoque",
+    "community": "Comunidad",
+    "support": "Apoyo",
+    "events": "Eventos",
+    "join": "Unirse",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "Forja la versión más fuerte de ti mismo",
+    "subtitle": "Un espacio para hombres que eligen trabajar en sí mismos. Sin distracciones, sin validación — solo disciplina, claridad y crecimiento real.",
+    "joinCta": "Únete a la hermandad",
+    "explore": "Explorar"
+  },
+  "problem": {
+    "title": "El problema",
+    "p1": "Hoy muchos hombres se sienten perdidos, aislados y sin propósito. La sociedad no ofrece un camino claro hacia la fuerza — física, mental o espiritual.",
+    "p2": "Demasiado ruido. Consejos contradictorios. Contenido superficial. Sin comunidad real, sin estructura, sin dirección.",
+    "p3": "Sin guía, muchos hombres vagan sin dirección.",
+    "imageAlt": "Hombre en reflexión, representando aislamiento y falta de rumbo"
+  },
+  "reality": {
+    "title": "La realidad que enfrentan los hombres hoy",
+    "intro": "En todo el mundo, millones de hombres luchan con el aislamiento, la falta de propósito y sistemas de apoyo rotos. Estas cifras muestran una crisis creciente.",
+    "stat1Title": "Tasa de suicidio masculino",
+    "stat1Desc": "Casi el 80% de los suicidios en el mundo son de hombres.",
+    "stat2Title": "Tasa de divorcio",
+    "stat2Desc": "Muchos matrimonios terminan en divorcio.",
+    "stat3Title": "Soledad masculina",
+    "stat3Desc": "Un número creciente de hombres reporta soledad crónica.",
+    "footnote": "Las versiones futuras de la plataforma seguirán tendencias globales y estadísticas por país a lo largo del tiempo."
+  },
+  "solution": {
+    "title": "La solución",
+    "imageAlt": "Hombres entrenando juntos como comunidad de apoyo",
+    "p1": "THE FORGE no es una red social. Es un entorno para hombres que deciden tomar control de su vida.",
+    "p2": "Aquí no vienes a mostrarte. Vienes a trabajar en ti mismo — con estructura, disciplina y apoyo real.",
+    "p3": "La forja no es cómoda. Pero es donde se construyen hombres con dirección, carácter y propósito.",
+    "structureTitle": "Estructura",
+    "structureDesc": "Un sistema que te ayuda a construir disciplina y mantenerte constante.",
+    "brotherhoodTitle": "Hermandad",
+    "brotherhoodDesc": "Hombres trabajando en sí mismos, apoyándose sin competir.",
+    "guidanceTitle": "Guía",
+    "guidanceDesc": "Dirección clara a través de experiencia, no ruido."
+  },
+  "focusMode": {
+    "title": "Modo enfoque",
+    "intro": "Este no es un tracker. Es un sistema para construir disciplina real. Lo que haces aquí se refleja en tu vida.",
+    "mindset": {
+      "title": "Mentalidad",
+      "desc": "Claridad mental y disciplina emocional.",
+      "b1": "Sesiones de meditación",
+      "b2": "Diarios de reflexión",
+      "b3": "Hábitos de concentración"
+    },
+    "body": {
+      "title": "Cuerpo",
+      "desc": "Desarrolla fuerza y resistencia física.",
+      "b1": "Entrenamiento en gimnasio",
+      "b2": "Rutinas de ejercicio",
+      "b3": "Progreso de fuerza"
+    },
+    "knowledge": {
+      "title": "Conocimiento",
+      "desc": "Afila tu mente mediante el estudio.",
+      "b1": "Listas de lectura",
+      "b2": "Debates de filosofía",
+      "b3": "Temas de estudio"
+    },
+    "social": {
+      "title": "Inteligencia social",
+      "desc": "Comprende a las personas y las relaciones.",
+      "b1": "Habilidades de comunicación",
+      "b2": "Conciencia social",
+      "b3": "Retos de interacción"
+    }
+  },
+  "community": {
+    "title": "Comunidad",
+    "intro": "Aquí no vienes a llamar la atención. Vienes a compartir proceso, aprender y aportar valor a otros hombres.",
+    "training": {
+      "title": "Grupos de entrenamiento",
+      "desc": "Encuentra compañeros para rutinas de gimnasio, planes y retos físicos."
+    },
+    "books": {
+      "title": "Libros y cine",
+      "desc": "Debates y análisis de libros, filosofía y películas con profundidad."
+    },
+    "life": {
+      "title": "Conversaciones reales",
+      "desc": "Experiencias, errores y aprendizajes sin filtros ni apariencias."
+    },
+    "eventGroups": {
+      "title": "Grupos de eventos",
+      "desc": "Crea grupos para organizar actividades y encuentros locales."
+    },
+    "supportCircles": {
+      "title": "Apoyo entre hombres",
+      "desc": "Espacios donde se habla con honestidad y se construye resiliencia."
+    },
+    "business": {
+      "title": "Negocios y networking",
+      "desc": "Conecta con otros miembros para colaborar y construir proyectos."
+    }
+  },
+  "experts": {
+    "title": "Apoyo profesional",
+    "intro": "Apoyo profesional cuando lo necesitas, sin reemplazar tu responsabilidad personal.",
+    "psychology": {
+      "title": "Psicólogos",
+      "desc": "Apoyo profesional para momentos difíciles."
+    },
+    "coaching": {
+      "title": "Coaches",
+      "desc": "Guía en disciplina y dirección de vida."
+    },
+    "mentors": {
+      "title": "Mentores",
+      "desc": "Consejos de hombres con experiencia."
+    }
+  },
+  "events": {
+    "title": "Hermandad en el mundo real",
+    "intro": "La vida real es donde todo se pone a prueba. Conecta con otros hombres fuera de la pantalla.",
+    "bikers": {
+      "title": "Hermandad motera",
+      "place": "Nueva York",
+      "alt": "Encuentro de hermandad motera en Nueva York"
+    },
+    "camping": {
+      "title": "Hermandad camping",
+      "place": "México",
+      "alt": "Encuentro de hermandad camping en México"
+    },
+    "gym": {
+      "title": "Hermandad gym",
+      "place": "Melbourne",
+      "alt": "Encuentro de hermandad gym en Melbourne"
+    },
+    "hiking": {
+      "title": "Hermandad senderismo",
+      "place": "Colombia",
+      "alt": "Encuentro de hermandad senderismo en Colombia"
+    },
+    "running": {
+      "title": "Hermandad running",
+      "place": "Chile",
+      "alt": "Encuentro de hermandad running en Chile"
+    }
+  },
+  "cta": {
+    "title": "Empieza a construir una vida con dirección",
+    "subtitle": "No necesitas más información. Necesitas estructura, disciplina y acción.",
+    "button": "Comenzar"
+  },
+  "footer": {
+    "tagline": "Disciplina. Propósito. Hermandad.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "copyright": "© {{year}} THE FORGE. Todos los derechos reservados."
+  }
+}

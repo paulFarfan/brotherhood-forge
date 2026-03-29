@@ -1,53 +1,45 @@
+import { useTranslation } from "react-i18next";
 import StatsCard from "../ui/StatsCard";
 
 export default function Reality() {
+  const { t } = useTranslation();
+
   return (
     <section id="reality" className="py-28 text-white scroll-mt-24">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Title */}
-
         <div className="text-center mb-16">
-          <h2 className="hero-title text-5xl mb-6">
-            The Reality Men Face Today
-          </h2>
+          <h2 className="hero-title text-5xl mb-6">{t("reality.title")}</h2>
 
           <p className="text-zinc-400 max-w-2xl mx-auto">
-            Across the world, millions of men struggle with isolation, lack of
-            purpose and broken support systems. These numbers reveal a growing
-            crisis.
+            {t("reality.intro")}
           </p>
         </div>
-
-        {/* Stats */}
 
         <div className="grid md:grid-cols-3 gap-10">
           <StatsCard
             number={80}
             suffix="%"
-            title="Male Suicide Rate"
-            description="Nearly 80% of suicides worldwide are men."
+            title={t("reality.stat1Title")}
+            description={t("reality.stat1Desc")}
           />
 
           <StatsCard
             number={50}
             suffix="%"
-            title="Divorce Rate"
-            description="Many marriages end in divorce."
+            title={t("reality.stat2Title")}
+            description={t("reality.stat2Desc")}
           />
 
           <StatsCard
             number={33}
             suffix="%"
-            title="Male Loneliness"
-            description="A growing number of men report chronic loneliness."
+            title={t("reality.stat3Title")}
+            description={t("reality.stat3Desc")}
           />
         </div>
 
-        {/* Future note */}
-
         <p className="text-center text-zinc-500 mt-12 text-sm">
-          Future versions of the platform will track global trends and
-          statistics by country over time.
+          {t("reality.footnote")}
         </p>
       </div>
     </section>
