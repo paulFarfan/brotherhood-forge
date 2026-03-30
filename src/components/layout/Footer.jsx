@@ -18,20 +18,12 @@ export default function Footer() {
         <p className="text-zinc-500 mb-6">{t("footer.tagline")}</p>
 
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-6 text-sm">
-          <a href="#reality" className="hover:text-white transition">
-            {t("nav.reality")}
-          </a>
-
           <a href="#focus" className="hover:text-white transition">
             {t("nav.focusMode")}
           </a>
 
           <a href="#community" className="hover:text-white transition">
             {t("nav.community")}
-          </a>
-
-          <a href="#support" className="hover:text-white transition">
-            {t("nav.support")}
           </a>
 
           <a href="#events" className="hover:text-white transition">

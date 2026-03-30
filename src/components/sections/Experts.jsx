@@ -1,13 +1,15 @@
 import { useTranslation } from "react-i18next";
 import CardLink from "../ui/CardLink";
 import AnimatedSection from "../ui/AnimatedSection";
+import Section from "../ui/Section";
+import Container from "../ui/Container";
 
 export default function Experts() {
   const { t } = useTranslation();
 
   return (
-    <section id="support" className="py-28 text-white scroll-mt-24">
-      <div className="max-w-7xl mx-auto px-6">
+    <Section id="support">
+      <Container>
         <div className="text-center mb-16">
           <h2 className="hero-title text-5xl mb-6">{t("experts.title")}</h2>
           <p className="text-zinc-400 max-w-2xl mx-auto">
@@ -41,7 +43,7 @@ export default function Experts() {
             />
           </AnimatedSection>
         </div>
-      </div>
-    </section>
+      </Container>
+    </Section>
   );
 }

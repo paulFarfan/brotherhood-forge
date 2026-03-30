@@ -1,13 +1,15 @@
 import { useTranslation } from "react-i18next";
 import AnimatedSection from "../ui/AnimatedSection";
 import IconCardLink from "../ui/IconCardLink";
+import Section from "../ui/Section";
+import Container from "../ui/Container";
 
 export default function Community() {
   const { t } = useTranslation();
 
   return (
-    <section id="community" className="py-28 text-white scroll-mt-24">
-      <div className="max-w-7xl mx-auto px-6">
+    <Section id="community">
+      <Container>
         <div className="text-center mb-16">
           <h2 className="hero-title text-5xl mb-6">{t("community.title")}</h2>
 
@@ -66,7 +68,7 @@ export default function Community() {
             />
           </AnimatedSection>
         </div>
-      </div>
-    </section>
+      </Container>
+    </Section>
   );
 }

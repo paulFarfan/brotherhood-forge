@@ -1,12 +1,14 @@
 import { useTranslation } from "react-i18next";
 import StatsCard from "../ui/StatsCard";
+import Section from "../ui/Section";
+import Container from "../ui/Container";
 
 export default function Reality() {
   const { t } = useTranslation();
 
   return (
-    <section id="reality" className="py-28 text-white scroll-mt-24">
-      <div className="max-w-7xl mx-auto px-6">
+    <Section id="reality">
+      <Container>
         <div className="text-center mb-16">
           <h2 className="hero-title text-5xl mb-6">{t("reality.title")}</h2>
 
@@ -41,7 +43,7 @@ export default function Reality() {
         <p className="text-center text-zinc-500 mt-12 text-sm">
           {t("reality.footnote")}
         </p>
-      </div>
-    </section>
+      </Container>
+    </Section>
   );
 }

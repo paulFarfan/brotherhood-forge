@@ -8,131 +8,145 @@
   "nav": {
     "primary": "Principal",
     "reality": "Realidad",
-    "focusMode": "Modo enfoque",
-    "community": "Comunidad",
-    "support": "Apoyo",
-    "events": "Eventos",
-    "join": "Unirse",
+    "focusMode": "Sistema",
+    "community": "Hermandad",
+    "support": "Guía",
+    "events": "Mundo Real",
+    "join": "Entrar",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
     "language": "Idioma"
   },
   "hero": {
-    "title": "Forja la versión más fuerte de ti mismo",
-    "subtitle": "Un espacio para hombres que eligen trabajar en sí mismos. Sin distracciones, sin validación — solo disciplina, claridad y crecimiento real.",
-    "joinCta": "Únete a la hermandad",
-    "explore": "Explorar"
+    "title": "La mayoría no va a hacer el trabajo. ¿Tú sí?",
+    "subtitle": "Ya sabes lo que tienes que hacer. Aquí es donde lo haces.",
+    "joinCta": "Entrar a THE FORGE",
+    "explore": "Ver la realidad"
   },
   "problem": {
-    "title": "El problema",
-    "p1": "Hoy muchos hombres se sienten perdidos, aislados y sin propósito. La sociedad no ofrece un camino claro hacia la fuerza — física, mental o espiritual.",
-    "p2": "Demasiado ruido. Consejos contradictorios. Contenido superficial. Sin comunidad real, sin estructura, sin dirección.",
-    "p3": "Sin guía, muchos hombres vagan sin dirección.",
-    "imageAlt": "Hombre en reflexión, representando aislamiento y falta de rumbo"
+    "title": "EL PROBLEMA",
+    "intro": "Sabes que podrías estar haciendo más.",
+    "highlight": "Pero no lo estás.",
+
+    "reasons": [
+      "Demasiada distracción.",
+      "Demasiada comodidad.",
+      "Demasiadas excusas."
+    ],
+
+    "consequences": ["Sin estructura.", "Sin disciplina.", "Sin dirección."],
+
+    "imageAlt": "Hombre en frustración, representando falta de dirección"
   },
   "reality": {
     "title": "La realidad que enfrentan los hombres hoy",
-    "intro": "En todo el mundo, millones de hombres luchan con el aislamiento, la falta de propósito y sistemas de apoyo rotos. Estas cifras muestran una crisis creciente.",
-    "stat1Title": "Tasa de suicidio masculino",
+    "intro": "Esto no te pasa solo a ti. Millones de hombres están pasando por lo mismo.",
+    "stat1Title": "Los hombres están muriendo en silencio",
     "stat1Desc": "Casi el 80% de los suicidios en el mundo son de hombres.",
-    "stat2Title": "Tasa de divorcio",
+    "stat2Title": "Las relaciones se están rompiendo",
     "stat2Desc": "Muchos matrimonios terminan en divorcio.",
-    "stat3Title": "Soledad masculina",
+    "stat3Title": "Cada vez más hombres están solos",
     "stat3Desc": "Un número creciente de hombres reporta soledad crónica.",
-    "footnote": "Las versiones futuras de la plataforma seguirán tendencias globales y estadísticas por país a lo largo del tiempo."
+    "footnote": "Esto no es casualidad. Es un patrón."
   },
   "solution": {
-    "title": "La solución",
+    "title": "LA SOLUCIÓN",
     "imageAlt": "Hombres entrenando juntos como comunidad de apoyo",
-    "p1": "THE FORGE no es una red social. Es un entorno para hombres que deciden tomar control de su vida.",
-    "p2": "Aquí no vienes a mostrarte. Vienes a trabajar en ti mismo — con estructura, disciplina y apoyo real.",
-    "p3": "La forja no es cómoda. Pero es donde se construyen hombres con dirección, carácter y propósito.",
+    "p1": "No necesitas más información. Necesitas estructura.",
+    "p2": "No necesitas motivación. Necesitas disciplina.",
+    "p3": "Aquí es donde la construyes.",
     "structureTitle": "Estructura",
-    "structureDesc": "Un sistema que te ayuda a construir disciplina y mantenerte constante.",
+    "structureDesc": "Un sistema que te mantiene constante.",
     "brotherhoodTitle": "Hermandad",
-    "brotherhoodDesc": "Hombres trabajando en sí mismos, apoyándose sin competir.",
+    "brotherhoodDesc": "Hombres con el mismo estándar.",
     "guidanceTitle": "Guía",
-    "guidanceDesc": "Dirección clara a través de experiencia, no ruido."
+    "guidanceDesc": "Dirección de quienes ya lo hicieron."
   },
   "focusMode": {
-    "title": "Modo enfoque",
-    "intro": "Este no es un tracker. Es un sistema para construir disciplina real. Lo que haces aquí se refleja en tu vida.",
+    "title": "FOCUS MODE",
+    "intro": "Aquí no registras hábitos. Construyes disciplina con acción.",
+
     "mindset": {
       "title": "Mentalidad",
-      "desc": "Claridad mental y disciplina emocional.",
-      "b1": "Sesiones de meditación",
-      "b2": "Diarios de reflexión",
-      "b3": "Hábitos de concentración"
+      "desc": "Controla tu mente. Mantente enfocado.",
+      "b1": "Siéntate a pensar con claridad",
+      "b2": "Escribe lo que evitas",
+      "b3": "Elimina distracciones"
     },
+
     "body": {
       "title": "Cuerpo",
-      "desc": "Desarrolla fuerza y resistencia física.",
-      "b1": "Entrenamiento en gimnasio",
-      "b2": "Rutinas de ejercicio",
-      "b3": "Progreso de fuerza"
+      "desc": "Entrena incluso cuando no tienes ganas.",
+      "b1": "Sigue una rutina real",
+      "b2": "Empuja tus límites físicos",
+      "b3": "Cumple aunque no quieras"
     },
+
     "knowledge": {
       "title": "Conocimiento",
-      "desc": "Afila tu mente mediante el estudio.",
-      "b1": "Listas de lectura",
-      "b2": "Debates de filosofía",
-      "b3": "Temas de estudio"
+      "desc": "Aprende con intención, no por consumir.",
+      "b1": "Estudia, no scrollees",
+      "b2": "Aplica lo que lees",
+      "b3": "Profundiza"
     },
+
     "social": {
-      "title": "Inteligencia social",
-      "desc": "Comprende a las personas y las relaciones.",
-      "b1": "Habilidades de comunicación",
-      "b2": "Conciencia social",
-      "b3": "Retos de interacción"
+      "title": "Social",
+      "desc": "Enfrenta la realidad al interactuar.",
+      "b1": "Ten conversaciones reales",
+      "b2": "Di lo que piensas",
+      "b3": "Desarrolla presencia"
     }
   },
   "community": {
-    "title": "Comunidad",
-    "intro": "Aquí no vienes a llamar la atención. Vienes a compartir proceso, aprender y aportar valor a otros hombres.",
+    "title": "HERMANDAD",
+    "intro": "Sin estatus. Sin validación. Solo hombres trabajando en sí mismos, juntos.",
+
     "training": {
-      "title": "Grupos de entrenamiento",
-      "desc": "Encuentra compañeros para rutinas de gimnasio, planes y retos físicos."
+      "title": "Training",
+      "desc": "Entrena con hombres que sí cumplen."
     },
     "books": {
-      "title": "Libros y cine",
-      "desc": "Debates y análisis de libros, filosofía y películas con profundidad."
+      "title": "Conocimiento",
+      "desc": "Convierte lo que aprendes en acción."
     },
     "life": {
       "title": "Conversaciones reales",
-      "desc": "Experiencias, errores y aprendizajes sin filtros ni apariencias."
+      "desc": "Habla claro. Sin filtros. Sin aparentar."
     },
     "eventGroups": {
-      "title": "Grupos de eventos",
-      "desc": "Crea grupos para organizar actividades y encuentros locales."
+      "title": "Eventos",
+      "desc": "Llévalo al mundo real. Conecta cara a cara."
     },
     "supportCircles": {
-      "title": "Apoyo entre hombres",
-      "desc": "Espacios donde se habla con honestidad y se construye resiliencia."
+      "title": "Accountability",
+      "desc": "Rodéate de hombres que te mantienen firme."
     },
     "business": {
-      "title": "Negocios y networking",
-      "desc": "Conecta con otros miembros para colaborar y construir proyectos."
+      "title": "Construir",
+      "desc": "Crea algo real con otros hombres."
     }
   },
   "experts": {
-    "title": "Apoyo profesional",
-    "intro": "Apoyo profesional cuando lo necesitas, sin reemplazar tu responsabilidad personal.",
+    "title": "GUÍA",
+    "intro": "Nadie va a hacer el trabajo por ti. Pero no tienes que hacerlo solo.",
+
     "psychology": {
       "title": "Psicólogos",
-      "desc": "Apoyo profesional para momentos difíciles."
+      "desc": "Entiende qué te está frenando."
     },
     "coaching": {
       "title": "Coaches",
-      "desc": "Guía en disciplina y dirección de vida."
+      "desc": "Construye disciplina y dirección."
     },
     "mentors": {
       "title": "Mentores",
-      "desc": "Consejos de hombres con experiencia."
+      "desc": "Aprende de hombres que ya lo hicieron."
     }
   },
   "events": {
-    "title": "Hermandad en el mundo real",
-    "intro": "La vida real es donde todo se pone a prueba. Conecta con otros hombres fuera de la pantalla.",
+    "title": "HERMANDAD EN EL MUNDO REAL",
+    "intro": "Aquí no hablas. Aquí cumples.",
     "bikers": {
       "title": "Hermandad motera",
       "place": "Nueva York",
@@ -160,12 +174,12 @@
     }
   },
   "cta": {
-    "title": "Empieza a construir una vida con dirección",
-    "subtitle": "No necesitas más información. Necesitas estructura, disciplina y acción.",
-    "button": "Comenzar"
+    "title": "Decide en quién te vas a convertir",
+    "subtitle": "Ya sabes lo suficiente. Ahora te toca actuar.",
+    "button": "Entrar a THE FORGE"
   },
   "footer": {
-    "tagline": "Disciplina. Propósito. Hermandad.",
+    "tagline": "Ya viste la realidad. Ahora actúa.Esto depende de ti.",
     "privacy": "Privacidad",
     "terms": "Términos",
     "copyright": "© {{year}} THE FORGE. Todos los derechos reservados."

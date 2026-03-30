@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
+import Section from "../ui/Section";
+import Container from "../ui/Container";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -18,8 +20,8 @@ export default function Events() {
   const { t } = useTranslation();
 
   return (
-    <section id="events" className="py-28 text-white scroll-mt-24">
-      <div className="max-w-7xl mx-auto px-6">
+    <Section id="events">
+      <Container>
         <div className="text-center mb-16">
           <h2 className="hero-title text-5xl mb-6">{t("events.title")}</h2>
 
@@ -66,7 +68,7 @@ export default function Events() {
             ))}
           </Swiper>
         </div>
-      </div>
-    </section>
+      </Container>
+    </Section>
   );
 }

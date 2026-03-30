@@ -1,13 +1,15 @@
 import { useTranslation } from "react-i18next";
 import ExpandableCard from "../ui/ExpandableCard";
 import AnimatedSection from "../ui/AnimatedSection";
+import Section from "../ui/Section";
+import Container from "../ui/Container";
 
 export default function FocusMode() {
   const { t } = useTranslation();
 
   return (
-    <section id="focus" className="py-28 text-white scroll-mt-24">
-      <div className="max-w-7xl mx-auto px-6">
+    <Section id="focus">
+      <Container>
         <div className="text-center mb-16">
           <h2 className="hero-title text-5xl mb-6">{t("focusMode.title")}</h2>
 
@@ -23,9 +25,11 @@ export default function FocusMode() {
               description={t("focusMode.mindset.desc")}
               image="/images/focus-mindset.webp"
             >
-              <p>• {t("focusMode.mindset.b1")}</p>
-              <p>• {t("focusMode.mindset.b2")}</p>
-              <p>• {t("focusMode.mindset.b3")}</p>
+              <ul className="space-y-2 text-sm text-zinc-300">
+                <li>{t("focusMode.mindset.b1")}</li>
+                <li>{t("focusMode.mindset.b2")}</li>
+                <li>{t("focusMode.mindset.b3")}</li>
+              </ul>
             </ExpandableCard>
           </AnimatedSection>
           <AnimatedSection delay={0.2}>
@@ -34,9 +38,11 @@ export default function FocusMode() {
               description={t("focusMode.body.desc")}
               image="/images/focus-body.webp"
             >
-              <p>• {t("focusMode.body.b1")}</p>
-              <p>• {t("focusMode.body.b2")}</p>
-              <p>• {t("focusMode.body.b3")}</p>
+              <ul className="space-y-2 text-sm text-zinc-300">
+                <li>{t("focusMode.body.b1")}</li>
+                <li>{t("focusMode.body.b2")}</li>
+                <li>{t("focusMode.body.b3")}</li>
+              </ul>
             </ExpandableCard>
           </AnimatedSection>
           <AnimatedSection delay={0.3}>
@@ -45,9 +51,11 @@ export default function FocusMode() {
               description={t("focusMode.knowledge.desc")}
               image="/images/focus-knowledge.webp"
             >
-              <p>• {t("focusMode.knowledge.b1")}</p>
-              <p>• {t("focusMode.knowledge.b2")}</p>
-              <p>• {t("focusMode.knowledge.b3")}</p>
+              <ul className="space-y-2 text-sm text-zinc-300">
+                <li>{t("focusMode.knowledge.b1")}</li>
+                <li>{t("focusMode.knowledge.b2")}</li>
+                <li>{t("focusMode.knowledge.b3")}</li>
+              </ul>
             </ExpandableCard>
           </AnimatedSection>
           <AnimatedSection delay={0.4}>
@@ -56,13 +64,15 @@ export default function FocusMode() {
               description={t("focusMode.social.desc")}
               image="/images/focus-social.webp"
             >
-              <p>• {t("focusMode.social.b1")}</p>
-              <p>• {t("focusMode.social.b2")}</p>
-              <p>• {t("focusMode.social.b3")}</p>
+              <ul className="space-y-2 text-sm text-zinc-300">
+                <li>{t("focusMode.social.b1")}</li>
+                <li>{t("focusMode.social.b2")}</li>
+                <li>{t("focusMode.social.b3")}</li>
+              </ul>
             </ExpandableCard>
           </AnimatedSection>
         </div>
-      </div>
-    </section>
+      </Container>
+    </Section>
   );
 }
